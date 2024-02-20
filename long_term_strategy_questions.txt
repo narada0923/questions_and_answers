@@ -1,0 +1,21 @@
+Questions on long term strategy:
+
+	1	What are the most common solutions that the countries have decided to climate change?
+	2	What seems to be the main way economies are following low emissions development?
+	3	Which country seems to have the most comprehensive Long term strategy?
+	4	Which long term strategy seems to have the most industry support?
+	5	Explain the main five solutions in the long term strategies of different countries.
+	6	Can you summarise Germany, Kazakhstan and Indonesia’s Long term strategies?
+	7	What is the methodology in which the long term strategy is conducted?
+	8	Who were the stakeholders and what capacity their involvement to build the long term strategy is?
+
+
+What does the application must be able to do?
+
+	1	Compare different documents
+	2	Understand the context. - GHG emission reduction plan for Canada?
+	3	Be able to do chain logic. 
+        a	One Step,
+        b	Second step. 
+	4	Analysis capabilities: 
+        a	Word Map, Statistics on topics, and general trend on certain topics, and sector.
