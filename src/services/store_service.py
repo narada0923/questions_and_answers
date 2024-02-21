@@ -11,12 +11,12 @@ class StoreService:
         text_splitter = RecursiveCharacterTextSplitter()
         document_chunks = text_splitter.split_documents(document)
 
-        vectorestore = Chroma.from_documents(document_chunks, OpenAIEmbeddings())
+        vectorestore = Chroma.from_documents(document_chunks, OpenAIEmbeddings(chunk_size=1))
 
         return vectorestore
     
     def get_vectorstore_from_document(self, chunks: list[str]):
-        embeddings = OpenAIEmbeddings()
+        embeddings = OpenAIEmbeddings(chunk_size=1)
         vectorstore = Chroma.from_texts(texts=chunks, embedding=embeddings)
         return vectorstore
 
